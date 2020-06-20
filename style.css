@@ -25,7 +25,17 @@ body {
 
 .right {float: right;}
 
-.red {color: red !important;}
+/*.red {color: red !important;}*/
+
+.red {
+    
+    fill: red;
+}
+
+.green{
+    
+    fill: green;
+}
 
 .red-focus:focus {border: 1px solid red !important;}
 
