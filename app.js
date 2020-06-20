@@ -303,13 +303,13 @@ var UIController = (function () {
 
 				element = DOMstring.incomeContainer;
 
-				html = '<div class="item clearfix" id="inc-%id%"><div class="item_description">%description%</div><div class="right clearfix"><div class="item_value">%value%</div><div class="item_delete"><button class="item_delete--btn"> <i class="ion-ios-close-outline"></i> </button></div></div></div>';
+				html = '<div class="item clearfix" id="inc-%id%"><div class="item_description">%description%</div><div class="right clearfix"><div class="item_value">%value%</div><div class="item_delete"><button class="item_delete--btn"> <img src="criss-cross.png" alt="criss-cross.png" style="width: 14px;" > </button></div></div></div>';
 
 			} else if (type === 'exp') {
 
 				element = DOMstring.expensesContainer;
 
-				html = '<div div class="item clearfix" id="exp-%id%"><div class="item_description">%description%</div><div class="right clearfix"><div class="item_value">%value%</div><div class="item_percentage">21%</div><div class="item_delete"><button class="item_delete--btn"> <i class="ion-ios-close-outline"></i> </button></div></div></div>';
+				html = '<div div class="item clearfix" id="exp-%id%"><div class="item_description">%description%</div><div class="right clearfix"><div class="item_value">%value%</div><div class="item_percentage">21%</div><div class="item_delete"><button class="item_delete--btn"> <img src="criss-cross.png" alt="criss-cross.png" style="width: 14px;" > </button></div></div></div>';
 
 			}
 
